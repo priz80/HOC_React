@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slider img {
+    /* margin-top: 30px; */
+    max-width: 640px;
+    max-height: 360px;
+    /* border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); */
+}
+
+.slider .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.mt-5 {
+    margin-top: 1rem !important;
+}
+
+.mt-3 {
+    margin-bottom: 1rem !important;
+}
