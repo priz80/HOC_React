@@ -10,7 +10,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
         clean: true,
-        publicPath: '/HOC_React/',
+        publicPath: process.env.NODE_ENV === 'production' ? '/HOC_React/' : 'auto',
     },
 
     module: {
